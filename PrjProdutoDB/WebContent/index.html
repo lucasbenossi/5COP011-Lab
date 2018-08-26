@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Produtos</title>
+</head>
+<body>
+	<h1>Buscar</h1>
+	<form action="buscarProduto">
+		Digite o nome do produto: 
+		<input type="text" name="nomeProduto" />
+		<br />
+		<input type="submit" value="Buscar" />
+	</form>
+	
+	<h2>Inserir</h2>
+	<form action="inserirProduto" method="POST">
+		Nome: <input type="text" name="nomeProduto" /><br>
+		Preco: <input type="text" name="precoProduto" /><br>
+		Quantidade: <input type="text" name="quantidadeProduto" /><br>
+		<input type="submit" value="Inserir" />
+	</form>
+
+</body>
+</html>
